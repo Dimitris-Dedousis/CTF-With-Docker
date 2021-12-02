@@ -38,10 +38,13 @@
 [5o Κεφ. Δομή εργασίας](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B4%CE%BF%CE%BC%CE%AE-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82) <br>
 [6o Κεφ. Docker]() <br>
 [7o Κεφ. Ασκήσεις](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B1%CF%83%CE%BA%CE%AE%CF%83%CE%B5%CE%B9%CF%82) <br>
-1. [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) <br>
-2. [Image Pass]()
-3. [Password Recovery]()
-4. [Find flag from Capture Files]()
+1. Hydra
+    1. [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) <br>
+    2. Scan Networkd
+    
+3. [Image Pass]()
+4. [Password Recovery]()
+5. [Find flag from Capture Files]()
 
 
 [Συμπέρασμα](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CF%83%CF%85%CE%BC%CF%80%CE%B5%CF%81%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1) <br>
@@ -242,12 +245,12 @@ steghide extract -sf ostechnix.jpg
 3. Hashcat
  
 ## <p align="center"> Ασκήσεις </p>
-
+## <p align="center"> 1. Hydra </p>
 <p align="justify">
 Η Alice απέκτησε πρόσβαση σε ένα  αρχείο txt, το οποίο περιλαβαίνει όλους του κωδικούς του Bob. Ένας από τους κωδικούς είναι και το password που συνδέεται στο υπολογιστεί του, ο Bob. 
 </p>
 
-### 2. Scan Netowrkd
+### 2. Scan Network
 <b>Περιγραφή </b>
 <p align="justify">
 Στην συνέχεια σαρώνει το δίκτυο ώστε να εντοπίσει το μηχάνημα του Bob. Όταν ολοκληρώσει την σάρωση , θα είναι σε θέσει να εντόπιση την IP του Bob.
@@ -266,7 +269,7 @@ steghide extract -sf ostechnix.jpg
 > Για το brute-force attack θα χρησιμοποιηθεί το pass.txt 
 
 
-## 2. Image Pass
+## <p align="center"> 2. Image Pass </p>
 <b> Περιγραφή </b>
 <p align="justify"> 
 Μόλις συνδέθηκε βρήκε στο φάκελο του ενα αρχείο εικόνας. Χρησιμοποιώντας τα εργαλεία της στενογραφίας , τσέκαρε αν μέσα υπάρχει ένα άλλο κριμένο αρχείο. Σε περίπτωση που υπάρχει θα του έκανε  εξαγωγή ώστε να διαβάσει το μυστικό μήνυμα.    
@@ -274,7 +277,7 @@ steghide extract -sf ostechnix.jpg
 
 > <p> flag{******}</p> 
 
-## 3. Find flag from Capture Files
+## <p align="center"> 3. Find flag from Capture Files </p>
 <b>Περιγραφή </b>
 <p align="justify"> 
  Μόλις κατάφερε να απόκτηση απομακρυσμένη πρόσβαση. Εντόπισε μέσα στο μηχάνημα του Bob ένα αρχείο .cap. 
