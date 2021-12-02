@@ -1,5 +1,6 @@
+# Method
 
-exercise_1
+## Hydra - exercise_1
 install alice annd bob :
 
 1) apt update 
@@ -11,7 +12,7 @@ install alice annd bob :
 
 
 
-Steghide Image - exercise_2
+## Steghide Image - exercise_2
 
 1) Make Flag
 Python 2.7.18
@@ -28,7 +29,7 @@ Solve
 4) "666c61677b73746567686964655f696d6167657d".decode('hex')
 
 
-exercise_3
+## exercise_3
 install :
 1) apt update 
-2) apt install hascat -y
+2) apt install hashcat -y
