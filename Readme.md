@@ -39,9 +39,10 @@
 [6o Κεφ. Docker]() <br>
 [7o Κεφ. Ασκήσεις](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B1%CF%83%CE%BA%CE%AE%CF%83%CE%B5%CE%B9%CF%82) <br>
 1. [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) <br>
-2. [Find flag from Capture Files]()
+2. [Image Pass]()
 3. [Password Recovery]()
-4. [Image Pass]()
+4. [Find flag from Capture Files]()
+
 
 [Συμπέρασμα](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CF%83%CF%85%CE%BC%CF%80%CE%B5%CF%81%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1) <br>
 
@@ -264,7 +265,16 @@ steghide extract -sf ostechnix.jpg
 > Ο user του 2ου Docker είναι ο bob <br>
 > Για το brute-force attack θα χρησιμοποιηθεί το pass.txt 
 
-### 4. Find flag from Capture Files
+
+## 2. Image Pass
+<b> Περιγραφή </b>
+<p align="justify"> 
+Μόλις συνδέθηκε βρήκε στο φάκελο του ενα αρχείο εικόνας. Χρησιμοποιώντας τα εργαλεία της στενογραφίας , τσέκαρε αν μέσα υπάρχει ένα άλλο κριμένο αρχείο. Σε περίπτωση που υπάρχει θα του έκανε  εξαγωγή ώστε να διαβάσει το μυστικό μήνυμα.    
+</p>
+
+> <p> flag{******}</p> 
+
+## 3. Find flag from Capture Files
 <b>Περιγραφή </b>
 <p align="justify"> 
  Μόλις κατάφερε να απόκτηση απομακρυσμένη πρόσβαση. Εντόπισε μέσα στο μηχάνημα του Bob ένα αρχείο .cap. 
@@ -276,13 +286,7 @@ steghide extract -sf ostechnix.jpg
 > Μόλις ανάλυσε το cap αρχείο βρήκε τα στοιχεία username και password και πραγματοποίησε μέσα από SSH σύνδεση στο υπολογιστή της δουλείας του Bob.
 
 
-### 4. Image Pass
-<b> Περιγραφή </b>
-<p align="justify"> 
-Μόλις συνδέθηκε βρήκε στο φάκελο του ενα αρχείο εικόνας. Χρησιμοποιώντας τα εργαλεία της στενογραφίας , τσέκαρε αν μέσα υπάρχει ένα άλλο κριμένο αρχείο. Σε περίπτωση που υπάρχει θα του έκανε  εξαγωγή ώστε να διαβάσει το μυστικό μήνυμα.    
-</p>
 
-> <p> flag{******}</p> 
 
 ## <p align="center"> Συμπέρασμα </p>
 Όταν ο χρήστης καταφέρει να ολοκληρώσει όλες τις ασκήσεις θα είναι σε θέση να μπορεί να χρησιμοποιεί όλα τα εργαλεία , που χρησιμοποιείσαι για λύσεις τις ασκήσεις.
