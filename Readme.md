@@ -40,7 +40,7 @@
 [7o Κεφ. Ασκήσεις](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B1%CF%83%CE%BA%CE%AE%CF%83%CE%B5%CE%B9%CF%82) <br>
 1. Hydra
     1. [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) <br>
-    2. Scan Networkd
+    2. Scan Network
     
 3. [Image Pass]()
 4. [Password Recovery]()
@@ -245,18 +245,18 @@ steghide extract -sf ostechnix.jpg
 3. Hashcat
  
 ## <p align="center"> Ασκήσεις </p>
-## <p align="center"> 1. Hydra </p>
+### <p align="center"> 1. Hydra </p>
 <p align="justify">
 Η Alice απέκτησε πρόσβαση σε ένα  αρχείο txt, το οποίο περιλαβαίνει όλους του κωδικούς του Bob. Ένας από τους κωδικούς είναι και το password που συνδέεται στο υπολογιστεί του, ο Bob. 
 </p>
 
-### 2. Scan Network
+#### Scan Network
 <b>Περιγραφή </b>
 <p align="justify">
 Στην συνέχεια σαρώνει το δίκτυο ώστε να εντοπίσει το μηχάνημα του Bob. Όταν ολοκληρώσει την σάρωση , θα είναι σε θέσει να εντόπιση την IP του Bob.
 </p>
 
-### 3. Remote Access 
+#### Remote Access 
 <b>Περιγραφή </b>
 <p align="justify"> 
 Γνωρίζοντας στην IP θα μπορεί να εκτέλεση μια επίθεση brot-force. Για την επίθεση χρησιμοποιεί το username του Bob που γνωρίζει ήδη, σαν wordlist χρησιμοποιεί το αρχείο που έχει δημιουργήσει από το hash αρχείο και η σύνδεση θα πραγματοποιηθεί με το πρωτόκολλο SSH.
