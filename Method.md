@@ -1,7 +1,7 @@
 # Method
 
 ## Hydra - exercise_1
-install alice annd bob :
+Install Machine (.sh) :
 
 1) apt update 
 2) apt install net-tools ==> ifconfig
@@ -14,22 +14,26 @@ install alice annd bob :
 
 ## Steghide Image - exercise_2
 
-1) Make Flag
-Python 2.7.18
-flag{steghide_image} ==> ASCII
-666c61677b73746567686964655f696d6167657d ==> hex
+Install Machine (.sh) :
+1) apt update -y 
+2) apt istall steghide -y
 
-2) Images 
-steghide embed -ef data -cf image.jpg 
+Make Flag
+1) Install Python 2.7.18
+2) flag{steghide_image} ==> ASCII <br>
+3) 666c61677b73746567686964655f696d6167657d ==> hex
+
+Images 
+1) steghide embed -ef data -cf image.jpg 
 
 Solve
-1) apt istall steghide -y
 2) steghide extract -sf image.jpg
 3) Open Python 2.7.18
 4) "666c61677b73746567686964655f696d6167657d".decode('hex')
 
 
 ## exercise_3
-install :
+
+Install Machine (.sh) :
 1) apt update 
 2) apt install hashcat -y
