@@ -1,4 +1,4 @@
-# Method
+# Setting - Method  
 
 ## Hydra - Exercise 1
 <b>Install Machine (.sh) </b>
