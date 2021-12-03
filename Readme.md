@@ -113,7 +113,7 @@
 | ` Reversing `||
 | ` Misc `| |
 | ` Cryptography` ||
-| `Pawning`| |
+| `Pawn`| |
 | ` Steganography`| |
 
 ## <p align="center"> Εργαλεία <p>
