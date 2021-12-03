@@ -26,7 +26,7 @@
 <b> Solve </b>
 
 2) ```steghide extract -sf image.jpg```
-3) Open Python 2.7.18
+3) Open Python 2.7.18 or [Online](http://www.unit-conversion.info/texttools/hexadecimal/)
 4) "666c61677b73746567686964655f696d6167657d".decode('hex')
 
 
