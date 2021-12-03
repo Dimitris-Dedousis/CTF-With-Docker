@@ -1,6 +1,6 @@
 # Method
 
-## Hydra - exercise_1
+## Hydra - Exercise 1
 <b>Install Machine (.sh) </b>
 
 1) ```apt update ```
@@ -9,7 +9,7 @@
 4) ```apt install openssh-server -y```  install  SSH
 5) ```service ssh start``` 
 
-## Steghide Image - exercise_2
+## Image - Exercise 2
 
 </b> Install Machine (.sh) </b>
 1) ``` apt update -y ``` 
@@ -30,13 +30,7 @@
 4) "666c61677b73746567686964655f696d6167657d".decode('hex')
 
 
-## exercise_3
-
-<b> Install Machine (.sh) </b>
-1) ```apt update -y ```
-2) ```apt install hashcat -y```
-
-## exercise_4
+## CAP FILE - Exercise 3
 
 <b> Install Machine (.sh) </b>
 1) ```apt update -y ```
