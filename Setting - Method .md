@@ -16,7 +16,7 @@
 2) ```apt istall steghide -y```
 
 <b> Make Flag </b>
-1) Install Python 2.7.18
+1) Install Python 2.7.18 or [Execute Python Online (Python v2.7.13)](https://www.tutorialspoint.com/execute_python_online.php)
 2) flag{steghide_image}  ASCII <br>
 3) 666c61677b73746567686964655f696d6167657d  hex
 
@@ -26,8 +26,10 @@
 <b> Solve </b>
 
 2) ```steghide extract -sf image.jpg```
-3) Open Python 2.7.18 or [Online](http://www.unit-conversion.info/texttools/hexadecimal/)
-4) "666c61677b73746567686964655f696d6167657d".decode('hex')
+3) Open Python 2.7.18 or 
+  [Convert hexadecimal to text](http://www.unit-conversion.info/texttools/hexadecimal/) or 
+  [Execute Python Online (Python v2.7.13)](https://www.tutorialspoint.com/execute_python_online.php)
+5) "666c61677b73746567686964655f696d6167657d".decode('hex')
 
 
 ## CAP FILE - Exercise 3
