@@ -17,8 +17,8 @@
 
 <b> Make Flag </b>
 1) Install Python 2.7.18
-2) flag{steghide_image} ==> ASCII <br>
-3) 666c61677b73746567686964655f696d6167657d ==> hex
+2) flag{steghide_image}  ASCII <br>
+3) 666c61677b73746567686964655f696d6167657d  hex
 
 <b> Images </b>
 1) ```steghide embed -ef data -cf image.jpg``` 
