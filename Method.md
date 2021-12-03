@@ -4,13 +4,10 @@
 <b>Install Machine (.sh) </b>
 
 1) ```apt update ```
-2) ```apt install net-tools``` ==> ifconfig
-3) ```apt install iputils-ping -y``` ==> instal ping cmd
-4) ```apt install openssh-server -y``` ==> install
+2) ```apt install net-tools```  ifconfig
+3) ```apt install iputils-ping -y```  ping 
+4) ```apt install openssh-server -y```  install  SSH
 5) ```service ssh start``` 
-
-
-
 
 ## Steghide Image - exercise_2
 
@@ -38,3 +35,10 @@
 <b> Install Machine (.sh) </b>
 1) ```apt update -y ```
 2) ```apt install hashcat -y```
+
+## exercise_4
+
+<b> Install Machine (.sh) </b>
+1) ```apt update -y ```
+2) ```apt install tshark -y```
+
