@@ -174,9 +174,9 @@ nmap 192.168.0.*
 |``` -i ``` | capture interface|
 |``` -f  ``` | capture filter |
 |``` -r ```| infile|
-| ```  -w ```|write packets to a pcapng-format file named "outfile"|
+| ```  -w ```|εγγραφή πακέτων σε ένα αρχείο με μορφή pcapng που ονομάζεται "outfile" |
 | ``` -c ```|packet count|
-| ``` -2 ```| perform a two-pass analysis| 
+| ``` -2 ```| εκτελέστε μια ανάλυση  two-pass | 
 |``` -B```| size of kernel buffer (def: 2MB)|
 
 > :computer: Εγκατάσταση <br>
