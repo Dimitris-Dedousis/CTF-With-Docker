@@ -112,9 +112,11 @@
 | ` Forensics `||
 | ` Reversing `||
 | ` Misc `| |
-| ` Cryptography` ||
+| ` Crypto` ||
 | `Pawn`| |
-| ` Steganography`| |
+| ` Stego`| |
+| ` Mobile`| |
+| ` Hardware`| |
 
 ## <p align="center"> Εργαλεία <p>
 
@@ -166,6 +168,16 @@ nmap 192.168.0.*
 
 ### Tshark
  <p align="justify"> Το Tshark είναι το Wireshark αλλά με την διαφορά ότι δεν παρέχει γραφικό περιβάλλον όπως το Wireshark αλλά τρέχει στο Terminal. Με το συγκεκριμένο εργαλείο μπορούμε να συλλέξουμε packets που κουνούνται στο LAN και να τα αναλύσουμε με την χρήση συγκεκριμένων εντολών. Εκτός από αυτήν την δυνατότητα μπορούμε να αναλύσουμε και αρχεία με επέκταση .cap , οπού στην πραγματικότητα  είναι αποθηκευμένη η κίνηση των packets ενός LAN που υπήρχε σε μια συγκεκριμένη περίοδο. </p>
+ 
+ | Διακόπτες | Περιγραφή  |
+| --- | --- |
+|``` -i ``` | capture interface|
+|``` -f  ``` | capture filter |
+|``` -r ```| infile|
+| ```  -w ```|write packets to a pcapng-format file named "outfile"|
+| ``` -c ```|packet count|
+| ``` -2 ```| perform a two-pass analysis| 
+|``` -B```| size of kernel buffer (def: 2MB)|
 
 > :computer: Εγκατάσταση <br>
 > sudo apt-get install -y tshark
