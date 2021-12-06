@@ -36,7 +36,6 @@
 <b> Πρακτικό Μέρος</b><br>
 [4o Κεφ. Περιγραφή - Στόχος Εργασίας](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CF%80%CE%B5%CF%81%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%AE) <br>
 [5o Κεφ. Δομή εργασίας](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B4%CE%BF%CE%BC%CE%AE-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82) <br>
-[6o Κεφ. Docker]() <br>
 [7o Κεφ. Ασκήσεις](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B1%CF%83%CE%BA%CE%AE%CF%83%CE%B5%CE%B9%CF%82) <br>
 1. Hydra
     1. [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) <br>
@@ -237,9 +236,13 @@ steghide extract -sf ostechnix.jpg
 
 ## <p align="center"> Δομή εργασίας </p>
 <p align="justify">.... </p>
-
-##  <p align="center">Δομή Docker</p>
-......
+Ο χρήστης για να ξεκινήσει το Project αρχικά θα πρέπει να εκτέλεση το αρχείο menu.sh.
+Το menu.sh έχει σχεδιαστεί ώστε να λειτουργεί ώστε ο χρήστης να μπορεί χρησιμοποιεί τις ακόλουθες δυνατότητες :
+-	Εκκινήσει ενός challeges
+-	Εμφάνιση όλων τον Docker image που έχουν δημιουργηθεί. Επιπλέον σου δίνει την δεινότητα να διαγράψεις είτε ένα από τα image είτε ένα contener. Η διαγραφή γίνετε απλά εισάγοντας το ID είτε του image είτε το contener. Τέλος η συγκεκριμένη δυνατότητα προστέθηκε ώστε ο χρήστης να μπορεί στο τέλος να διαγράψει όλα τα image που δημιουργήθηκαν.
+Όταν ο χρήστης επιλέξει την εκκίνηση ενός Challenges τότε θα εκτελεστεί μια αυτόματα μια από τις δυο παρακάτω επιλογές :
+1. Δημιουργία (build) και εκτέλεση (run) αυτόματα, αν το challages απαιτεί την δημιουργία ενός μόνο Docker
+2. Την εκτέλεση ενός δευτέρου bash αρχείου , οπού στο συγκεκριμένο αρχείο εκτελείται αυτόματα το build για όλα τα Docker που απαιτούνται να δημιουργηθούν για την εκτέλεση του challenge.  
  
 ## <p align="center"> Ασκήσεις </p>
 ### <p align="center"> 1. Hydra </p>
