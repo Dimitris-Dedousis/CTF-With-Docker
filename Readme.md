@@ -281,7 +281,7 @@ steghide extract -sf ostechnix.jpg
 > Για το brute-force attack θα χρησιμοποιηθεί το pass.txt 
 
 
-## <p align="center"> 2. Image Pass </p>
+### <p align="center"> 2. Image Pass </p>
 <b> Περιγραφή </b>
 <p align="justify"> 
 Μόλις συνδέθηκε βρήκε στο φάκελο του ενα αρχείο εικόνας. Χρησιμοποιώντας τα εργαλεία της στενογραφίας , τσέκαρε αν μέσα υπάρχει ένα άλλο κριμένο αρχείο. Σε περίπτωση που υπάρχει θα του έκανε  εξαγωγή ώστε να διαβάσει το μυστικό μήνυμα.    
@@ -289,7 +289,7 @@ steghide extract -sf ostechnix.jpg
 
 > <p> flag{******}</p> 
 
-## <p align="center"> 3. Find flag from Capture Files </p>
+### <p align="center"> 3. Find flag from Capture Files </p>
 <b>Περιγραφή </b>
 <p align="justify"> 
  Μόλις κατάφερε να απόκτηση απομακρυσμένη πρόσβαση. Εντόπισε μέσα στο μηχάνημα του Bob ένα αρχείο .cap. 
