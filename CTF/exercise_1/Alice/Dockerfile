@@ -1,6 +1,16 @@
-FROM ubuntu
+FROM ubuntu # OS Ubuntu
+
+# Install Basic Tools
+RUN apt update -y
+RUN apt install net-tools -y
+RUN apt install openssh-server -y
+
+# input file
 COPY text_file/worldlist.txt /home/alice/worldlist.txt
-COPY text_file/set.sh /home/set.sh
+
+# Run 
+RUN service ssh start
+
 
 
 
