@@ -40,3 +40,19 @@
 1) ```apt update -y ```
 2) ```apt install tshark -y```
 
+<b>Found Flags</b>
+```ruby
+tshark -r http.pcap -Y 'http' -T fields -e http.file_data
+```
+<b>output</b>
+```
+!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8">\n<title>Directory listing for /</title>\n</head>\n<body>\n<h1>Directory listing for /</h1>\n<hr>\n<ul>\n<li><a href="desktop.ini">desktop.ini</a></li>\n<li><a href="Exercise/">Exercise/</a></li>\n<li><a href="flag.html.txt">flag.html.txt</a></li>\n<li><a href="GitHub.url">GitHub.url</a></li>\n<li><a href="Hack%20The%20Box.url">Hack The Box.url</a></li>\n<li><a href="Project/">Project/</a></li>\n<li><a href="UNIWA%20HOTSPOT.url">UNIWA HOTSPOT.url</a></li>\n<li><a href="UNIWA.lnk">UNIWA.lnk</a></li>\n<li><a href="%CE%A0%CE%91.%CE%94.%CE%91.url">����.��.��.url</a></li>\n<li><a href="%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1.url">����������.url</a></li>\n</ul>\n<hr>\n</body>\n</html>\n
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8">\n<title>Directory listing for /Exercise/</title>\n</head>\n<body>\n<h1>Directory listing for /Exercise/</h1>\n<hr>\n<ul>\n<li><a href="index/">index/</a></li>\n<li><a href="password/">password/</a></li>\n</ul>\n<hr>\n</body>\n</html>\n
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8">\n<title>Directory listing for /Exercise/password/</title>\n</head>\n<body>\n<h1>Directory listing for /Exercise/password/</h1>\n<hr>\n<ul>\n<li><a href="page.html">page.html</a></li>\n</ul>\n<hr>\n</body>\n</html>\n
+
+<!-- ZmxhZ3t3aXIzc2hhcmtfY3RmX2h0bWx9 -->\r\n<html>\r\n<body>\r\n<h1>Page</h1>\r\n</body>\r\n</html>
+```
