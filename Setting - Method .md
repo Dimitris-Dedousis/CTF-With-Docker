@@ -44,6 +44,42 @@
 ```ruby
 tshark -r http.pcap -Y 'http' -T fields -e http.file_data
 ```
+|   |  |
+|---|---|
+|-r|Διαβαζουμε το αρχειο|
+|-Y|Τα πακέτα που ταιριάζουν με το φίλτρο εκτυπώνονται ή εγγράφονται στο αρχείο.|
+|-T|Ρυθμίστε τη μορφή της εξόδου κατά την προβολή αποκωδικοποιημένων δεδομένων πακέτων. Οι επιλογές είναι μία από:  ek,fields,json,jsonraw,pdml,ps,psml,tabs,text|
+|-e|Εκτυπώνουμε το πεδίο http.file_data|
+
+### -T
+
+```fields``` <br> 
+The values of fields specified with the -e option, in a form specified by the -E option.
+
+<br>```pdml```<br>
+Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
+
+<br> ```ps```<br>
+PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
+
+<br> ```psml```<br>    
+Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
+
+<br> ```json```<br>
+Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
+
+<br> ```jsonraw```<br>
+Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
+
+<br> ```ek```<br>
+Packet Details, an EK JSON-based format for the bulk insert into elastic search cluster. This information isequivalent to the packet details printed with the -V flag.
+
+<br> ```text```<br>
+Text of a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified. This is the default.
+
+<br> ```tabs```<br>
+Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character
+
 <b>output</b>
 ```
 !DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8">\n<title>Directory listing for /</title>\n</head>\n<body>\n<h1>Directory listing for /</h1>\n<hr>\n<ul>\n<li><a href="desktop.ini">desktop.ini</a></li>\n<li><a href="Exercise/">Exercise/</a></li>\n<li><a href="flag.html.txt">flag.html.txt</a></li>\n<li><a href="GitHub.url">GitHub.url</a></li>\n<li><a href="Hack%20The%20Box.url">Hack The Box.url</a></li>\n<li><a href="Project/">Project/</a></li>\n<li><a href="UNIWA%20HOTSPOT.url">UNIWA HOTSPOT.url</a></li>\n<li><a href="UNIWA.lnk">UNIWA.lnk</a></li>\n<li><a href="%CE%A0%CE%91.%CE%94.%CE%91.url">����.��.��.url</a></li>\n<li><a href="%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1.url">����������.url</a></li>\n</ul>\n<hr>\n</body>\n</html>\n
