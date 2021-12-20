@@ -174,42 +174,32 @@ nmap 192.168.0.*
 | ``` -2 ```| εκτελέστε μια ανάλυση  two-pass | 
 |``` -B```| size of kernel buffer (def: 2MB)|
 
-#### -T
+#### Διακόπτης ```-T```
 
-```fields``` <br> 
+```fields```  
 The values of fields specified with the -e option, in a form specified by the -E option.
-
 <br>```pdml```<br>
 Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
-
-<br> ```ps```<br>
+<br>```ps```<br>
 PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
-
-<br> ```psml```<br>    
+<br>```psml```    <br>
 Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
-
-<br> ```json```<br>
+<br>```json```<br>
 Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
-
-<br> ```jsonraw```<br>
+<br>```jsonraw```
 Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
-
-<br> ```ek```<br>
+<br>```ek```<br>
 Packet Details, an EK JSON-based format for the bulk insert into elastic search cluster. This information isequivalent to the packet details printed with the -V flag.
-
-<br> ```text```<br>
+<br>```text```<br>
 Text of a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified. This is the default.
-
-<br> ```tabs```<br>
-Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character
+<br>```tabs```<br>
+Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character<br>
 
 
 > :computer: Εγκατάσταση <br>
-> sudo apt-get install -y tshark <br>
-> 
+> sudo apt-get install -y tshark <br> 
 > :information_source:<b>Wireshark</b><br>
 > Το Wireshark είναι ελεύθερο και ανοιχτού κώδικα λογισμικό ανάλυσης πρωτοκόλλων δικτύου υπολογιστών. Χρησιμοποιείται για ανάλυση δικτύου, παρακολούθηση δικτύου, εντοπισμό και αντιμετώπιση προβλημάτων στα δίκτυα και για εκπαίδευση. <br>
->
 >  :bulb: [Pcap](https://en.wikipedia.org/wiki/Pcap) 
 
 ### Hashcat
@@ -310,7 +300,6 @@ steghide extract -sf ostechnix.jpg
 <p align="justify"> 
  Η Alice υποπτεύεται ότι είναι ένα αρχείο καταγραφής των πακέτων κατά την διάρκεια που ο Bob συνδέθηκε μέσα από SSH στον υπολογιστή της δουλειά του. </p>
 
-> Μόλις ανάλυσε το cap αρχείο βρήκε τα στοιχεία username και password και πραγματοποίησε μέσα από SSH σύνδεση στο υπολογιστή της δουλείας του Bob.
 
 ## <p align="center"> Συμπέρασμα </p>
 Όταν ο χρήστης καταφέρει να ολοκληρώσει όλες τις ασκήσεις θα είναι σε θέση να μπορεί να χρησιμοποιεί όλα τα εργαλεία , που χρησιμοποιείσαι για λύσεις τις ασκήσεις.
