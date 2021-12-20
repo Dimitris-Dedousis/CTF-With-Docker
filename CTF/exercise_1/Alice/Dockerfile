@@ -1,4 +1,5 @@
-FROM ubuntu # OS Ubuntu
+# OS Ubuntu
+FROM ubuntu 
 
 # Install Basic Tools
 RUN apt update -y
