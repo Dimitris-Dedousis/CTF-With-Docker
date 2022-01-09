@@ -6,7 +6,7 @@ WELCOME EXERCISE 2
 1 : Access Alice
 0 : EXIT
 "
-echo ">>"
+echo -e "Machine >> \c"
 read vm
 while [ $vm != 0 ] 
 do
