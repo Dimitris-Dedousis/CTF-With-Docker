@@ -4,12 +4,12 @@ sudo docker build -t bob ./exercise_1/Bob
 
 clear
 echo "
-WELCOME EXERCISE 2
-1 : Access Alice
-2 : Access Bob
-0 : EXIT
+WELCOME EXERCISE 1
+1 : Alice (Machine)
+2 : Bob   (Machine)
+0 : Exit
 "
-echo ">>"
+echo -e "Machine >> \c"
 read vm
 while [ $vm != 0 ] 
 do
