@@ -1,43 +1,56 @@
+
 # <p align="center">CTF With Docker</p>
+
+
+---
+
 <p align="justify">Το Project έχει ως στόχο την βασική εκμάθηση εξειδικευμένων εργαλείων μέσα από απλές ασκήσεις.</p>
 <b>Θεωρικό Μέρος</b><br>
 <p align="justify">Στα πρώτα κεφάλαια ο αναγνώστης αποκτά το θεωρητικό υπόβαθρο σχετικά με τα Docker, CTF  και για διαφορά εξειδικευμένα εργαλεία.</p>
-<b>Πρακτικό Μέρος</b><br>
+<b>Πρακτικό Μέρος</b><br>Όταν ο χρήστης καταφέρει να ολοκληρώσει όλες τις ασκήσεις θα είναι σε θέση να μπορεί να χρησιμοποιεί όλα τα εργαλεία , που χρησιμοποιείσαι για λύσεις τις ασκήσεις.
 <p align="justify">Για κάθε άσκηση έχουν δημιουργηθεί Docker οπού υπάρχουν μέσα όλα τα απαιτούμενα  αρχεία που χρειάζεται ο χρήστης.
 Ο χρήστης καλείται από την άσκηση να επιλέξει μέσα από τα εργαλεία που έχουν αναφερθεί στο θεωρητικό μέρος, ποια είναι τα καταλληλά ώστε να ολοκλήρωση την άσκηση. </p>
 
+<div style="page-break-after: always;"></div>
+
 ## <p align="center">Περιεχόμενα</p>
 
-<b>Θεωρητικό Μέρος</b><br>
-[1o Κεφ. Dokcer](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#docker) 
+<p>
+<b>Θεωρητικό Μέρος</b>
+
+1o Κεφ. Dokcer
 1. Docker
 2. Τα Βασικά τμήματα 
 3. Dockerfile
 4. Container 
 
-[2o Κεφ. Capture The Flag ( CTF )](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#capture-the-flag-ctf) 
-1. [Capture The Flag]() 
-2. [Τύποι CTF]() 
-2. [Κατηγορίες CTF]() 
+2o Κεφ. Capture The Flag ( CTF ) 
+1. Capture The Flag 
+2. Τύποι CTF 
+3. Κατηγορίες CTF 
 
-[3o Κεφ. Εργαλεία ](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B5%CF%81%CE%B3%CE%B1%CE%BB%CE%B5%CE%AF%CE%B1) 
-1. [Hydra](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#hydra) <br>
-2. [Nmap](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#nmap) <br>
-3. [Tshark](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#tshark) <br>
-4. [Hashcat]() <br>
-5. [Steghide]()
+3o Κεφ. Εργαλεία 
+1. Hydra
+2. Nmap
+3. Tshark
+4. Hashcat
+5. Steghide
 
 <b> Πρακτικό Μέρος</b><br>
-[4o Κεφ. Περιγραφή - Στόχος Εργασίας](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CF%80%CE%B5%CF%81%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%AE) <br>
-[5o Κεφ. Δομή εργασίας](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B4%CE%BF%CE%BC%CE%AE-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82) <br>
-[7o Κεφ. Ασκήσεις](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CE%B1%CF%83%CE%BA%CE%AE%CF%83%CE%B5%CE%B9%CF%82) <br>
+4o Κεφ. Περιγραφή - Στόχος Εργασίας
+5o Κεφ. Δομή εργασίας
+7o Κεφ. Ασκήσεις
 1. Hydra
-    - [Remote Access](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#1-nmap-and-hydra) 
+    - Remote Access 
     - Scan Network
-3. [Image Pass]()
-4. [Password Recovery]()
-5. [Find flag from Capture Files]() <br>
-[8o Κεφ. Συμπέρασμα](https://github.com/Dimitris-Dedousis/Lunix/blob/main/Docker/Cuber.md#%CF%83%CF%85%CE%BC%CF%80%CE%B5%CF%81%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1) 
+2. Image Pass
+3. Password Recovery
+4. Find flag from Capture Files
+8o Κεφ. Συμπέρασμα
+</p>
+
+<div style="page-break-after: always;"></div>
+
 
 # <p align="center"> Θεωρητικό Μέρος </p>
 <p align="justify">Το Θεωρητικό Μέρος χωρίζεται σε τρία μέρη.  </p>
@@ -51,20 +64,6 @@
 το οποίο δεν έχει πρόσβαση στο υπόλοιπο μας υπολογιστή.</p>
 
 > :link: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-
-## Εικονοποίηση (Virtualisation)
-<p align="justify">
-    Το Virtualization, είναι στην πραγματικότητα η συναρμολόγηση εξαρτημάτων υλικού όπως CPU, RAM, Δίσκοι, Κάρτες Δικτύου κλπ. που όμως, εξομοιώνονται με ένα ειδικό λογισμικό.
-    </p>
-<p align="justify">    
-    Με αυτόν τον τρόπο, ο εικονικός υπολογιστής γίνεται «επισκέπτης» (Guest OS) μέσα σε έναν πραγματικό υπολογιστή ο οποίος με το λειτουργικό του σύστημα ονομάζεται Host.</p>
-    
- <p align="justify">    
-    Ένα από τα μεγάλα πλεονεκτήματα της τεχνολογία Virtualization είναι η δυνατότητα δημιουργίας στιγμιότυπων.
-    </p>
-
->Ένα στιγμιότυπο είναι η κατάσταση μιας εικονικής μηχανής σε ένα ακριβές χρονικό σημείο.
-
 ### Τα βασικά τμήματα 
 - `Dockerfile `<br>
 - ` Image `<br>
@@ -74,7 +73,7 @@
 ### Dockerfile
 Το Dockerfile είναι ένα απλό αρχείο οδηγιών , στο οποίο γράφουμε σε κάθε γραμμή τις εντολές που θέλουμε να εκτελεστούν με τη σειρά. 
 Ακολουθεί την λογική ενός Bash script.
-
+<br><br>
 | Χρήσιμη Δείκτες | Περιγραφή  |
 | :-----------: | :-----------: |
 |  ` FROM ` |  Ορίζουμε το image πάνω στο οποίο θα βασιστεί το δικό μας.| 
@@ -89,15 +88,18 @@
 |  ` ENTRYPOINT `  | Ορίζουμε τη βασική εντολή του image μας κάνοντάς το εκτελέσιμο | 
 |  ` ONBUILD ` |  Σημειώνουμε οδηγίες οι οποίες θα εκτελεστούν αν το δικό μας image χρησιμοποιηθεί ως βάση για ένα άλλο | 
 
+
 ### Container
 1. Τρέχουν οι εφαρμογές.
 2. Χρησιμοποιεί τον πυρήνα του host γιατι δεν έχει δικό του πυρήνα.
 3. Κάθε container είναι πλήρως απομονωμένο από το host λειτουργικό και από άλλα containers.
 4. Κάθε container δεν κρατάει δεδομένα μέσα του.<br> Δηλαδή αν τρέχουμε ένα container με mySQL,τα δεδομένα της βάσης θα χαθούν αν κάνουμε restart το service.
- 
+
+
 ## Capture The Flag (CTF)
 <p align="justify"> Το CTF είναι ένας διαγωνισμός στον οποίο οι συμμετέχοντες έχουν ορισμένο αριθμό εργασιών / δοκιμασίων που έχουν ως στόχο να κλέψουν μια κωδικοποιημένη συμβολοσειρά από ένα κρυφό αρχείο. Αυτή η συμβολοσειρά μοιάζει με ευαίσθητες πληροφορίες και είναι γνωστή ως flag.
 Το flag είναι συνήθως ένα απόσπασμα κώδικα, ένα κομμάτι υλικού σε ένα δίκτυο ή ίσως ένα αρχείο. </p>
+
 
 ### Τύποι CTF 
 | Τύπος | Περιγραφή |
@@ -107,7 +109,6 @@
 |` Mixed Style CTFs ` | Το  Mixed Style CTFs  είναι ένας συνδυασμός των CTF  Jeopardy και Attack-Defense. |
 
 ### Κατηγορίες CTF challenges
- 
 1. Web 
 2. Forensics 
 3. Reversing 
@@ -137,15 +138,12 @@ hydra -L names -P pws protocol://URL_OR_IP
 | /l | Όταν γνωρίζουμε το username|
 |  protocol://URL_OR_IP | Ορίζουμε το Protocol που θα χρησιμοποιήσουμε και μετρά το URL ή την IP του μηχανήματος.|
 
-<br> 
 
-> :computer: Εγκατάσταση <br>
-> sudo apt-get install hydra-gtk <br>
-> :information_source:	<b> Brute Force Attack </b> <br>
+> :computer: Εγκατάσταση 
+> sudo apt-get install hydra-gtk 
+> :information_source: <b>  Brute Force Attack </b> 
 > Η brute-force attack (επίθεση ωμής βίας) αναφέρεται στην εξαντλητική δοκιμή πιθανών κλειδιών που παράγουν ένα κρυπτογράφημα, ώστε να αποκαλυφθεί το αρχικό μήνυμα. Τέτοιου είδους επιθέσεις, οι οποίες χρησιμοποιούν όλα τα δυνατά κλειδιά, μπορούν πάντοτε να πραγματοποιηθούν.Συχνά, όμως, ο επιτιθέμενος ξεκινά την επίθεση χρησιμοποιώντας πιο "πιθανά", κατά την άποψή, του κλειδιά, προσπαθώντας με αυτό τον τρόπο να βρει το κλειδί πιο γρήγορα. Πρακτικά, η αναζήτηση σταματά μόλις βρεθεί το κλειδί, χωρίς να χρειαστεί περαιτέρω ενημέρωση της λίστας κλειδιών.
-> 
 > :bulb: [Rockyou.txt wordlist](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjw7evDl-P0AhWSqaQKHVeTBlsQFnoECAkQAQ&url=https%3A%2F%2Fgithub.com%2Fbrannondorsey%2Fnaive-hashcat%2Freleases%2Fdownload%2Fdata%2Frockyou.txt&usg=AOvVaw3snAERl1mU6Ccr4WFEazBd)
-
 ### Nmap
 <p align="justify"> Είναι ενα εργαλειο που κυριος το χρησιμοποιουμαι για να σαρώνειτο δικτυο και να εντοπιζει τι ειδος και ποσες συσκευες  είναι συνδεδεμενες. Με την χρηση καταλληλους διακοπτες μπορουμε εκτος απο το να σαρωσουμε ενα δικτυο, να λαβουμε και τις καταλληλες πληροφοριες για ενα host. </p>
 
@@ -164,20 +162,19 @@ nmap 192.168.0.*
 | -sA | Μας ενημερώνει εάν υπάρχει ενεργό Firewall. | `nmap -sA  192.168.0.1`|
 | -p |  Μας επιστρέφει πληροφορίες σχετικά με την port που έχουμε ορίσει. | `nmap -p 443 192.168.0.1 ` |
 
-<br>
 
-> :computer: Εγκατάσταση <br> 
-> sudo apt-get install nmap <br>
-> 
-> :information_source:	<b>Firewall</b> <br>
-> ο όρος Firewall  χρησιμοποιείται για να δηλώσει κάποια συσκευή ή πρόγραμμα που είναι έτσι ρυθμισμένο ούτως ώστε να επιτρέπει ή να απορρίπτει πακέτα δεδομένων που περνούν από ένα δίκτυο υπολογιστών σε ένα άλλο. <br>
-> 
+> :computer: Εγκατάσταση  
+> sudo apt-get install nmap 
+> :information_source:	<b>Firewall</b> 
+> Ο όρος Firewall  χρησιμοποιείται για να δηλώσει κάποια συσκευή ή πρόγραμμα που είναι έτσι ρυθμισμένο ούτως ώστε να επιτρέπει ή να απορρίπτει πακέτα δεδομένων που περνούν από ένα δίκτυο υπολογιστών σε ένα άλλο. 
 > :bulb: [Κατάλογος θυρών TCP και UDP](https://el.wikipedia.org/wiki/Κατάλογος_θυρών_TCP_και_UDP)
 
 ### Tshark
+
  <p align="justify"> Το Tshark είναι το Wireshark αλλά με την διαφορά ότι δεν παρέχει γραφικό περιβάλλον όπως το Wireshark αλλά τρέχει στο Terminal. Με το συγκεκριμένο εργαλείο μπορούμε να συλλέξουμε packets που κουνούνται στο LAN και να τα αναλύσουμε με την χρήση συγκεκριμένων εντολών. Εκτός από αυτήν την δυνατότητα μπορούμε να αναλύσουμε και αρχεία με επέκταση .cap , οπού στην πραγματικότητα  είναι αποθηκευμένη η κίνηση των packets ενός LAN που υπήρχε σε μια συγκεκριμένη περίοδο. </p>
  
- | Διακόπτες | Περιγραφή  |
+
+| Διακόπτες | Περιγραφή  |
 | --- | --- |
 |``` -i ``` | capture interface|
 |``` -f  ``` | capture filter |
@@ -191,34 +188,33 @@ nmap 192.168.0.*
 
 ```fields```  
 The values of fields specified with the -e option, in a form specified by the -E option.
-<br>```pdml```<br>
+```pdml```
 Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
-<br>```ps```<br>
+```ps```
 PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
-<br>```psml```    <br>
+```psml```    
 Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
-<br>```json```<br>
+```json```
 Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
-<br>```jsonraw```
+```jsonraw```
 Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
-<br>```ek```<br>
+```ek```
 Packet Details, an EK JSON-based format for the bulk insert into elastic search cluster. This information isequivalent to the packet details printed with the -V flag.
-<br>```text```<br>
+```text```
 Text of a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified. This is the default.
-<br>```tabs```<br>
-Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character<br>
+```tabs```
+Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character
 
-
-> :computer: Εγκατάσταση <br>
-> sudo apt-get install -y tshark <br> 
-> :information_source:<b>Wireshark</b><br>
-> Το Wireshark είναι ελεύθερο και ανοιχτού κώδικα λογισμικό ανάλυσης πρωτοκόλλων δικτύου υπολογιστών. Χρησιμοποιείται για ανάλυση δικτύου, παρακολούθηση δικτύου, εντοπισμό και αντιμετώπιση προβλημάτων στα δίκτυα και για εκπαίδευση. <br>
+> :computer: Εγκατάσταση 
+> sudo apt-get install -y tshark 
+> :information_source:<b>Wireshark</b>
+> Το Wireshark είναι ελεύθερο και ανοιχτού κώδικα λογισμικό ανάλυσης πρωτοκόλλων δικτύου υπολογιστών. Χρησιμοποιείται για ανάλυση δικτύου, παρακολούθηση δικτύου, εντοπισμό και αντιμετώπιση προβλημάτων στα δίκτυα και για εκπαίδευση. 
 >  :bulb: [Pcap](https://en.wikipedia.org/wiki/Pcap) 
 
 ### Hashcat
 
 ``` ruby
-hashcat -m 0 -a 0 -o cracked.txt target_hashes.txt rockyou.txt
+hashcat -m 0 -a 0 -o cracked.txt target_hashes.txt rockyou.txt 
 ```
 
 | Διακόπτης | Περιγραφή  |
@@ -228,8 +224,6 @@ hashcat -m 0 -a 0 -o cracked.txt target_hashes.txt rockyou.txt
 | `-o cracked.txt` | αρχείο εξόδου για τους κωδικούς πρόσβασης που έχουν καταστραφεί |
 | `rockyou.txt` | Η worldlist για αυτήν την επίθεση |
 
-<br>
-
 > :bulb: Hash Function <br>
 > <p align="justify"> Γενικά η hash function είναι μια μαθηματική συνάρτηση που έχοντας ως είσοδο μια ομάδα δεδομένων και δίνει ως 
 > έξοδο μια σειρά απο string (η συμβολοσειρά είναι συνήθως μικρότερη σε μέγεθος από την αρχική είσοδο). 
@@ -237,7 +231,6 @@ hashcat -m 0 -a 0 -o cracked.txt target_hashes.txt rockyou.txt
 > Διάσημες συναρτήσεις κατατεμαχισμού <br>
 > 1.MD5 <br>
 > 2.SHA-1 <br><br>
->  
 > :bulb: [Generic hash types](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
 ### Steghide 
@@ -254,19 +247,41 @@ Eξαγωγή κρυφών αρχείων απο μια Εικόνα :
 steghide extract -sf ostechnix.jpg
 ```
 
-> :computer: Εγκατάσταση <br>
+> :computer: Εγκατάσταση 
 > sudo apt install steghide
-> 
-> :bulb: Steganography <br> 
-> Η Steganography είναι μια διαδικασία απόκρυψης ενός αρχείου, μιας εικόνας, ενός βίντεο, ενός κειμένου μέσα σε ένα άλλο αρχείο.<br>
-> Επιπλεον Εργαλεία :<br>
-> 1. outguess <br>
-> 2. stegosuite<br>
+> :bulb: Steganography  
+> Η Steganography είναι μια διαδικασία απόκρυψης ενός αρχείου, μιας εικόνας, ενός βίντεο, ενός κειμένου μέσα σε ένα άλλο αρχείο.
+> Επιπλεον Εργαλεία :
+> 1. outguess 
+> 2. stegosuite
+
+<div style="page-break-after: always;"></div>
+
+
+## Επίθεση (Attack)
+
+### Brute Force Attack 
+<p> Η  brute-force attack  (επίθεση ωμής βίας) αναφέρεται στην εξαντλητική δοκιμή πιθανών κλειδιών που παράγουν ένα κρυπτογράφημα, ώστε να αποκαλυφθεί το αρχικό μήνυμα. Τέτοιου είδους επιθέσεις, οι οποίες χρησιμοποιούν όλα τα δυνατά κλειδιά, μπορούν πάντοτε να πραγματοποιηθούν.Συχνά, όμως, ο επιτιθέμενος ξεκινά την επίθεση χρησιμοποιώντας πιο "πιθανά", κατά την άποψή, του κλειδιά, προσπαθώντας με αυτό τον τρόπο να βρει το κλειδί πιο γρήγορα. Πρακτικά, η αναζήτηση σταματά μόλις βρεθεί το κλειδί, χωρίς να χρειαστεί περαιτέρω ενημέρωση της λίστας κλειδιών.
+
+###  Denial-of-Service (DOS) Attack }
+<p> Επιθέσεις άρνησης εξυπηρέτησης ονομάζονται γενικά οι επιθέσεις εναντίον ενός υπολογιστή, ή μιας υπηρεσίας που παρέχεται, οι οποίες έχουν ως σκοπό να καταστήσουν τον υπολογιστή ή την υπηρεσία ανίκανη να δεχτεί άλλες συνδέσεις και έτσι να μην μπορεί να εξυπηρετήσει άλλους πιθανούς πελάτες.
+
+### Malware 
+Το κακόβουλο λογισμικό ή επιβλαβές λογισμικό αποτελεί μείζον πρόβλημα για την ασφάλεια των Πληροφοριακών Συστημάτων. Το λογισμικό χαρακτηρίζεται ως κακόβουλο όταν βάσει των προθέσεων του προγραμματιστή το λογισμικό που προκύπτει διαθέτει τις απαιτούμενες εντολές προκειμένου να βλάψει ένα υπολογιστικό σύστημα.
+
+### SQL Injection 
+
+<p> Η SQL Injection είναι μια τεχνική έγχυσης κώδικα που μπορεί να καταστρέψει τη βάση δεδομένων σας. Είναι μια από τις πιο κοινές τεχνικές διαδικτυακής εισβολής. Είναι η τοποθέτηση κακόβουλου κώδικα σε δηλώσεις SQL, μέσω εισαγωγής ιστοσελίδας.  
+
+### Man-in-the-Middle (MitM) Attacks 
+
+<p>Η επίθεση -in-the-middle \gr είναι μια κοινή παραβίαση ασφάλειας. Ο επιτιθέμενος παρεμποδίζει τη νόμιμη επικοινωνία μεταξύ δύο μερών, τα οποία είναι φιλικά μεταξύ τους.
+
 
 # <p align="center"> Πρακτικό Μέρος</p>
 
 ## <p align="center"> Περιγραφή </p>
-<p align="justify"> Το Πρακτικό Μέρος αφορά την δημιουργία Challenge με θέματα που αφορούν το  Cyber Security με χρήση Docker. Κάθε Challenge θα έχει στόχο ο χρήστης χρησιμοποιώντας εργαλεία τα οποία αναφέρονται στο θεωρητικό μέρος αλλά και διάφορες τεχνικές να αποκτήσει το Flag.</p>
+<p align="justify"> Το <b>Πρακτικό Μέρος</b> αφορά την δημιουργία Challenge με θέματα που αφορούν το  Cyber Security με χρήση Docker. Κάθε Challenge θα έχει στόχο ο χρήστης χρησιμοποιώντας εργαλεία τα οποία αναφέρονται στο θεωρητικό μέρος αλλά και διάφορες τεχνικές να αποκτήσει το Flag.</p>
 <p align="justify"> Το κάθε Challenge έχει ως στόχο εκτός από τα να βρεις το Flag , να δει ο χρήστης και στην πράξη πως μπορείς να χρησιμοποιήσεις και τα συγκεκριμένα εργαλεία.</p>
 
 ## <p align="center"> Δομή εργασίας </p>
@@ -295,8 +310,8 @@ steghide extract -sf ostechnix.jpg
 
 > flag{password}
 > 
-> :bulb: Tips <br>
-> Ο user του 2ου Docker είναι ο bob <br>
+> :bulb: Tips 
+> Ο user του 2ου Docker είναι ο bob 
 > Για το brute-force attack θα χρησιμοποιηθεί το pass.txt 
 
 ### <p align="center"> 2. Image Pass </p>
@@ -311,8 +326,10 @@ steghide extract -sf ostechnix.jpg
 <p align="justify"> 
  Μόλις κατάφερε να απόκτηση απομακρυσμένη πρόσβαση. Εντόπισε μέσα στο μηχάνημα του Bob ένα αρχείο .cap. </p>
 <p align="justify"> 
- Η Alice υποπτεύεται ότι είναι ένα αρχείο καταγραφής των πακέτων κατά την διάρκεια που ο Bob συνδέθηκε μέσα από SSH στον υπολογιστή της δουλειά του. </p>
+ Η Alice υποπτεύεται ότι είναι ένα αρχείο καταγραφής των πακέτων κατά την διάρκεια που ο Bob ήταν στον broswer . </p>
 
+<div style="page-break-after: always;"></div>
 
 ## <p align="center"> Συμπέρασμα </p>
+
 Όταν ο χρήστης καταφέρει να ολοκληρώσει όλες τις ασκήσεις θα είναι σε θέση να μπορεί να χρησιμοποιεί όλα τα εργαλεία , που χρησιμοποιείσαι για λύσεις τις ασκήσεις.
