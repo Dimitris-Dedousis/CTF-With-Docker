@@ -1,3 +1,4 @@
+# [Download](https://dimitris-dedousis.github.io/CTF-With-Docker/Docker-Files.zip)
 
 Το Project έχει ως στόχο την βασική εκμάθηση εξειδικευμένων εργαλείων μέσα από απλές ασκήσεις.
 <b>Θεωρικό Μέρος</b><br>
@@ -5,6 +6,8 @@
 <b>Πρακτικό Μέρος</b><br>Όταν ο χρήστης καταφέρει να ολοκληρώσει όλες τις ασκήσεις θα είναι σε θέση να μπορεί να χρησιμοποιεί όλα τα εργαλεία , που χρησιμοποιείσαι για λύσεις τις ασκήσεις.
 Για κάθε άσκηση έχουν δημιουργηθεί Docker οπού υπάρχουν μέσα όλα τα απαιτούμενα  αρχεία που χρειάζεται ο χρήστης.
 Ο χρήστης καλείται από την άσκηση να επιλέξει μέσα από τα εργαλεία που έχουν αναφερθεί στο θεωρητικό μέρος, ποια είναι τα καταλληλά ώστε να ολοκλήρωση την άσκηση. 
+
+---
 
 ## Περιεχόμενα
 
@@ -183,18 +186,26 @@ nmap 192.168.0.*
 | ``` -2 ```| εκτελέστε μια ανάλυση  two-pass | 
 |``` -B```| size of kernel buffer (def: 2MB)|
 
-#### Διακόπτης 
+#### Διακόπτης  ```-T```
 
-```-T```
 ```fields```  
+
 The values of fields specified with the -e option, in a form specified by the -E option.
+
 ```pdml```
+
 Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
+
 ```ps```
+
 PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
+
 ```psml```    
+
 Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
+
 ```json```
+
 Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
 ```jsonraw```
 Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
