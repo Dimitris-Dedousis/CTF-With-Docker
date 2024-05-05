@@ -191,43 +191,23 @@ nmap 192.168.0.*
 
 #### Διακόπτης ```-T```
 
-```
-fields
-```
+``` fields ``` The values of fields specified with the -e option, in a form specified by the -E option.
 
-The values of fields specified with the -e option, in a form specified by the -E option.
+``` pdml ```  Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
 
-``` pdml ```
+``` ps ``` PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
 
-Packet Details Markup Language, an XML-based format for the details of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
+``` psml ``` Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
 
-```ps```
+``` json ```  Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
 
-PostScript for a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified.
+``` jsonraw ```  Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
 
-```psml```    
+``` ek ``` Packet Details, an EK JSON-based format for the bulk insert into elastic search cluster. This information isequivalent to the packet details printed with the -V flag.
 
-Packet Summary Markup Language, an XML-based format for the summary information of a decoded packet. This information is equivalent to the information shown in the one-line summary printed by default.
+``` text ``` Text of a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified. This is the default.
 
-```json```
-
-Packet Summary, an JSON-based format for the details summary information of a decoded packet. This information is equivalent to the packet details printed with the -V flag.
-
-```jsonraw```
-
-Packet Details, a JSON-based format for machine parsing including only raw hex decoded fields (same as -T json -x but without text decoding, only raw fields included). 
-
-```ek```
-
-Packet Details, an EK JSON-based format for the bulk insert into elastic search cluster. This information isequivalent to the packet details printed with the -V flag.
-
-```text```
-
-Text of a human-readable one-line summary of each of the packets, or a multi-line view of the details of each of the packets, depending on whether the -V flag was specified. This is the default.
-
-```tabs```
-
-Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character
+``` tabs ``` Similar to the text report except that each column of the human-readable one-line summary is delimited with an ASCII horizontal tab character
 
 > :computer: Εγκατάσταση 
 > sudo apt-get install -y tshark 
