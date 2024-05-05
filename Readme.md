@@ -60,12 +60,14 @@
 > :link: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 ### Τα βασικά τμήματα 
+
 - `Dockerfile `<br>
 - ` Image `<br>
 - ` Container `<br>
 - ` Network `<br>
 
 ### Dockerfile
+
 Το Dockerfile είναι ένα απλό αρχείο οδηγιών , στο οποίο γράφουμε σε κάθε γραμμή τις εντολές που θέλουμε να εκτελεστούν με τη σειρά. 
 Ακολουθεί την λογική ενός Bash script.
 <br><br>
@@ -107,6 +109,7 @@
 |` Mixed Style CTFs ` | Το  Mixed Style CTFs  είναι ένας συνδυασμός των CTF  Jeopardy και Attack-Defense. |
 
 ### Κατηγορίες CTF challenges
+
 1. Web 
 2. Forensics 
 3. Reversing 
@@ -186,7 +189,7 @@ nmap 192.168.0.*
 | ``` -2 ```| εκτελέστε μια ανάλυση  two-pass | 
 |``` -B```| size of kernel buffer (def: 2MB)|
 
-#### Διακόπτης  ```-T```
+#### Διακόπτης -T
 
 ```fields```
 
